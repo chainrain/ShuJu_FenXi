@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43701795-0343-44d2-8b84-e43a0653c73d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/11,数组的基本认识numpy的使用方法.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/12,numpy读取本地数据.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,72 +32,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="09,绘制多次条形图(三天电影票房).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/09,绘制多次条形图(三天电影票房).py">
+      <file leaf-file-name="12,numpy读取本地数据.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/12,numpy读取本地数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="336">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="11,数组的基本认识numpy的使用方法.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/11,数组的基本认识numpy的使用方法.py">
+      <file leaf-file-name="npyio.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/ShuJuFenXi/lib/python3.5/site-packages/numpy/lib/npyio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="54" column="11" lean-forward="false" selection-start-line="54" selection-start-column="11" selection-end-line="54" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10,绘制直方图.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/10,绘制直方图.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="09,绘制多次条形图(三天电影票房2).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/09,绘制多次条形图(三天电影票房2).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="07,绘制散点图.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/07,绘制散点图.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="40" column="4" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="181">
+              <caret line="773" column="34" lean-forward="true" selection-start-line="773" selection-start-column="34" selection-end-line="773" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -148,6 +98,7 @@
         <option value="$PROJECT_DIR$/code/10,绘制直方图.py" />
         <option value="$PROJECT_DIR$/code/readme.txt" />
         <option value="$PROJECT_DIR$/code/11,数组的基本认识numpy的使用方法.py" />
+        <option value="$PROJECT_DIR$/code/12,numpy读取本地数据.py" />
       </list>
     </option>
   </component>
@@ -161,7 +112,7 @@
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1059" />
-    <option name="height" value="881" />
+    <option name="height" value="871" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -592,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545364360124</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="数组:01,数组的基本认识,numpy的基本使用">
+      <created>1545379226486</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545379226486</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -605,7 +563,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1059" height="881" extended-state="6" />
+    <frame x="65" y="24" width="1059" height="871" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2529248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -615,7 +573,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3135705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.317757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285151" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -664,7 +622,8 @@
     <MESSAGE value="09,三天,四部电影票房(绘制多条形图)" />
     <MESSAGE value="10,工资分组(绘制直方图)" />
     <MESSAGE value="readme.txt总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme.txt总结" />
+    <MESSAGE value="数组:01,数组的基本认识,numpy的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组:01,数组的基本认识,numpy的基本使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -874,6 +833,22 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/ShuJuFenXi/lib/python3.5/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="773" column="34" lean-forward="true" selection-start-line="773" selection-start-column="34" selection-end-line="773" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/12,numpy读取本地数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
