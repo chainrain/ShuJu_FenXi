@@ -11,3 +11,10 @@ mkvirtualenv + 虚拟环境名 -p python3 (使用py3的库)
 然后:
 pip install matplotlib
 sudo apt-get install python3-tk
+
+
+matplotlib 绘图工具更多的样式:http://matplotlib.org/gallery/index.html
+
+
+
+不过以后更多的是用数据,然后用网页版的绘图框架,展示在前段,例如:http://www.echartsjs.com/examples/
