@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43701795-0343-44d2-8b84-e43a0653c73d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/17,pandas的Series一维数组.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/16,练习.py" afterPath="$PROJECT_DIR$/code/16,练习.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code/18,pandas读取外部数据.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +27,7 @@
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$12_numpy.coverage" NAME="12,numpy读取本地数据 Coverage Results" MODIFIED="1545384467891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$15_numpy.coverage" NAME="15,numpy更多好用的方法 Coverage Results" MODIFIED="1545395633487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$09__2_.coverage" NAME="09,绘制多次条形图(三天电影票房2) Coverage Results" MODIFIED="1545360371510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/ShuJu_FenXi$18_pandas.coverage" NAME="18,pandas读取外部数据 Coverage Results" MODIFIED="1545445749608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$13_.coverage" NAME="13,数组的拼接 Coverage Results" MODIFIED="1545389428274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$17_pandas.coverage" NAME="17,pandas Coverage Results" MODIFIED="1545442410294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
     <SUITE FILE_PATH="coverage/ShuJu_FenXi$fromnumeric.coverage" NAME="fromnumeric Coverage Results" MODIFIED="1545392879135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.virtualenvs/ShuJuFenXi/lib/python3.5/site-packages/numpy/core" />
@@ -59,11 +59,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="17,pandas的Series一维数组.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="17,pandas的Series一维数组.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/17,pandas的Series一维数组.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2296">
               <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="18,pandas读取外部数据.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/18,pandas读取外部数据.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -122,6 +132,7 @@
         <option value="$PROJECT_DIR$/code/15,numpy更多好用的方法.py" />
         <option value="$PROJECT_DIR$/16,练习.py" />
         <option value="$PROJECT_DIR$/code/17,pandas.py" />
+        <option value="$PROJECT_DIR$/code/18,pandas读取外部数据.py" />
       </list>
     </option>
   </component>
@@ -132,10 +143,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1035" />
-    <option name="height" value="881" />
+    <option name="x" value="66" />
+    <option name="y" value="59" />
+    <option name="width" value="912" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -205,25 +216,7 @@
       <recent name="$PROJECT_DIR$/中文字体" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.17,pandas">
-    <configuration default="false" name="13,数组的拼接" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ShuJu_FenXi" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/13,数组的拼接.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.18,pandas读取外部数据">
     <configuration default="false" name="15,numpy更多好用的方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,6 +285,24 @@
       <module name="ShuJu_FenXi" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/17,pandas的Series一维数组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="18,pandas读取外部数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ShuJu_FenXi" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/18,pandas读取外部数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -511,19 +522,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.13,数组的拼接" />
-      <item index="1" class="java.lang.String" itemvalue="Python.15,numpy更多好用的方法" />
-      <item index="2" class="java.lang.String" itemvalue="Python.fromnumeric" />
-      <item index="3" class="java.lang.String" itemvalue="Python.16,练习" />
-      <item index="4" class="java.lang.String" itemvalue="Python.17,pandas" />
+      <item index="0" class="java.lang.String" itemvalue="Python.15,numpy更多好用的方法" />
+      <item index="1" class="java.lang.String" itemvalue="Python.fromnumeric" />
+      <item index="2" class="java.lang.String" itemvalue="Python.16,练习" />
+      <item index="3" class="java.lang.String" itemvalue="Python.17,pandas" />
+      <item index="4" class="java.lang.String" itemvalue="Python.18,pandas读取外部数据" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.17,pandas" />
-        <item index="1" class="java.lang.String" itemvalue="Python.16,练习" />
-        <item index="2" class="java.lang.String" itemvalue="Python.15,numpy更多好用的方法" />
-        <item index="3" class="java.lang.String" itemvalue="Python.fromnumeric" />
-        <item index="4" class="java.lang.String" itemvalue="Python.13,数组的拼接" />
+        <item index="0" class="java.lang.String" itemvalue="Python.18,pandas读取外部数据" />
+        <item index="1" class="java.lang.String" itemvalue="Python.17,pandas" />
+        <item index="2" class="java.lang.String" itemvalue="Python.16,练习" />
+        <item index="3" class="java.lang.String" itemvalue="Python.15,numpy更多好用的方法" />
+        <item index="4" class="java.lang.String" itemvalue="Python.fromnumeric" />
       </list>
     </recent_temporary>
   </component>
@@ -643,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545393732053</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="数组:07,pandas的Series一维数组">
+      <created>1545442628338</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1545442628338</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -656,7 +674,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1035" height="881" extended-state="6" />
+    <frame x="66" y="59" width="912" height="823" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25276938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -665,9 +683,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28194994" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42368045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32806325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3266762" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3916991" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -721,7 +739,8 @@
     <MESSAGE value="数组:04,替换操作" />
     <MESSAGE value="数组:05,数据的拼接与交换位置" />
     <MESSAGE value="数组:06,numpy的ones/zeros,eye,argmax,argmin,random方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组:06,numpy的ones/zeros,eye,argmax,argmin,random方法" />
+    <MESSAGE value="数组:07,pandas的Series一维数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组:07,pandas的Series一维数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -977,6 +996,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2296">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/18,pandas读取外部数据.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding />
         </state>
       </provider>
